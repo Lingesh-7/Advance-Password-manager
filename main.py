@@ -13,7 +13,7 @@ import pyperclip
 def search():
     # =e1.get()
     try:
-        with open(r"C:\Users\linge\Desktop\python 100 days\projects\pr-30\passdata.json","r") as f:
+        with open("passdata.json","r") as f:
             r=json.load(f)
     except FileNotFoundError:
         messagebox.showwarning(title="Warning!!!",message="NO DATA FILE FOUND")
