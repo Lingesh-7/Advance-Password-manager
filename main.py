@@ -86,7 +86,7 @@ win.config(padx=50,pady=50,bg="white")
 win.minsize(300,300)
 
 canva=Canvas(width=200,height=200,bg="white",highlightthickness=0)
-img=PhotoImage(file="logo.png")
+img=PhotoImage(file=r"C:\Users\linge\Desktop\python 100 days\projects\pr-29\logo.png")
 canva.create_image(100,100,image=img)
 canva.grid(column=1,row=0)
 
